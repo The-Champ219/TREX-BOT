@@ -1,12 +1,12 @@
 
 
 {
-  "name": "Trex-Md",
+  "name": "TREX MD",
   "description": " Whatsapp bot.",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/Berabruce/Trex-Md",
+  "repository": "https://github.com/Berabruce/TREX-BOT",
   "stack": "container",
   "env": { 
       "SESSION_ID": {
@@ -52,7 +52,7 @@
     "REJECT_CALL": {
       "description": "make it true if you want to reject call",
       "required": false,
-      "value": "true"
+      "value": "false"
     }
     },
     "buildpacks": [
