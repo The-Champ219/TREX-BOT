@@ -1,16 +1,16 @@
 {
-  "name": "Trex Md",
+  "name": "TREX-BOT",
   "version": "10.8.1",
   "description": "Trex latest multi device whatsapp bot",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name Trex Md",
+    "start": "pm2 start index.js --deep-monitoring --attach --name trex",
     "stop": "pm2 stop trex",
     "restart": "pm2 restart trex"
   },
   "keywords": ["trex", "whatsapp-bot", "whatsapp md bot"],
-  "author": "Marisel",
+  "author": "BRUCE",
   "license": "ISC",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
